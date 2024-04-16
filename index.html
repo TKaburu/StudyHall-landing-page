@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Hall</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <section class="nav-container">
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo" style="width: 200px; height: 200px;">
+                </a>
+               
+            </div>
+            
+            <ul class="home-links">
+                <a href="index.html">Home</a>
+                <a href="#features">Features</a>
+                <a href="#demo">Demo</a>
+                <a href="#contact">Contact</a>
+            </ul>
+            <button><a href="#">Login</a></button>  
+        </nav>
+    </section>
+    <div class="landing-page">
+        <section class="about">
+            <h1 class="about-title">Study Hall</h1>
+            <div class="hero-section">
+                <img src="images/home.png" alt="">
+                <div class="slogan">
+                    <h2>Make learning easier by learning with friends</h2>
+                    <h5><a href="#" class="link">Join us</a></h5>
+                </div>
+            </div>
+        </section>
+    
+        <section id="features" class="feature-section">
+            <h2 class="about-title">Features</h2>
+            <div class="features">
+                <div class="room-chats">
+                    <img src="images/room.png" alt="room">
+                    <h4>Chat with others in the room</h4>
+                </div>
+                <div class="tasks-card">
+                    <img src="images/tasks.png" alt="tasks">
+                    <h4>Plan you day with the tasks section</h4>
+                </div>
+                <div class="notes-cards">
+                    <img src="images/notes.png" alt="notes">
+                    <h4>Write you're notes as you learn</h4>
+    
+                </div>
+            </div>
+            
+        </section>
+
+        <section>
+            <h2 id="demo" class="about-title">Demo</h2>
+            <div class="demo">
+                <video width="720" height="440" controls>
+                    <source src="videos/StudyHall.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+
+        <section class="inspo">
+            <h2 class="about-title" >What inspired StudyHall?</h2>
+            <div class="inspiration">
+                <h1>""</h1>
+                <p>
+                    When I joined Alx Africa everything was new. I would find it very difficult to understand all the new concepts especially with the tight deadlines.
+                    It wasn't until I met a group of peers through the Alx peer groups that I started to fully grasp the concept and not feel like I was the only one
+                    having a bard time understanding the concepts. <br> <br>
+                    When the project started, that moment came to mind. Why not create a virtual hub for learners to learn together so they do not feel overwhelmed?
+                    A place you can go back to and not having to create a new room everytime.
+                    Slowly by slowly StudyHall was built and now we are here. <br> <br>
+                    It is my hope that this application will help you in all you studies!
+                </p>
+                <h1>""</h1>
+            </div>
+        </section>
+    
+        <section id="contact" class="footer">
+            <h2 class="about-title">Contacts</h2>
+            <footer class="footer-info">
+
+                <div class="about-links ">
+                    <h3 style="margin-bottom: 10px;">Links</h3>
+                      <a href="index.html" class="link">Home</a></br>
+                      <!-- <a href="{% url 'about' %}" class="link">About</a></br> -->
+                      <a href="https://github.com/TKaburu/StudyHall" class="link" target="_blank">StudyHall</a></br>
+                  </div>
+
+                <div class="email">
+                    <h3>You can reach out via</h3>
+                    <div class="email-info">
+                        <div class="fa fa-envelope link"></div><a href="mailto:yourmail@gmail.com">traceymwendwa@gmail.com</a>
+                    </div>
+                </div>
+                <div class="social">
+                    <h3>Let's connect</h3>
+                    <!-- <p>Follow me ...</p> -->
+                    <div class="logobox">
+                        <i></i>
+                        <a href="https://twitter.com/kaburu_tracey" class="fa-brands fa-twitter link" target="_blank"></a>
+                        <a href="https://www.linkedin.com/in/tracey-kaburu/" class="fa-brands fa-linkedin link" target="_blank"></a>
+                        <a href="https://github.com/TKaburu" class="fa-brands fa-github link" target="_blank"></a>
+                      </div>
+                      <div class="auth">
+                        <button><a href="#">Register</a></button>
+                        <button><a href="#">Login</a></button>
+                    </div>
+                </div>
+
+            </footer>
+            <div class="copyright">
+                <p>All rights reserved. &copy; 2024</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
